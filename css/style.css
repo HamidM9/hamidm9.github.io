@@ -8,16 +8,18 @@ body {
   width: 100vw;
   height: 58px;
   background-color: #3f5aa9;
+    display: flex;
 
   position: relative;
   left: 50%;
   margin-left: -50vw;
 
-  margin-top: 24px;
+  margin-top: 15px;
   margin-bottom: 45px;
 
   box-sizing: border-box;
 }
+
 
 .site-header {
   margin: 0;
@@ -40,9 +42,10 @@ body {
   color: white;
 }
 .ijs-logo {
-  height: 65px;
+  height: 60px;
   width: auto;
-  filter: brightness(0) invert(1);
+  margin-left: auto;
+  display: block;
 }
 
 .container {
@@ -82,8 +85,8 @@ p {
 .notice-box {
   background: #ffffb3;
   border: 4px solid black;
-  padding: 18px 14px;
-  margin: 35px 0;
+  padding: 3px 14px;
+  margin: 30px 0;
   max-width: 1200px;
 }
 
@@ -97,6 +100,14 @@ p {
   color: blue;
   text-decoration: underline;
 }
+.subtext {
+    font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;        /* lighter than h3, similar to h4 */
+  margin-left: 0px;        /* spacing from title */
+  opacity: 0.9;            /* slightly softer */
+}
+
 h3 {
   font-size: 26px;
   margin-top: 35px;

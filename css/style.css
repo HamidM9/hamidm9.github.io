@@ -44,6 +44,8 @@ body {
   height: 60px;
   width: auto;
   margin-left: auto;
+  margin-right: 20px;   /* pushes logo left from the right edge */
+
   display: block;
 }
 

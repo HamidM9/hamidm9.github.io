@@ -40,6 +40,12 @@ body {
   font-weight: 800;
   color: white;
 }
+.research-list h5{
+  font-size: 20px;
+  font-weight: 500;
+
+
+}
 .ijs-logo {
   height: 60px;
   width: auto;
